@@ -45,7 +45,7 @@ const timer = setInterval(() => {
 ---
 layout: intro
 ---
-## Software Engineering at Scale.
+# Software Engineering at Scale.
 
 <div class="absolute bottom-10">
     <span class="font-500">
