@@ -54,6 +54,19 @@ layout: intro
 </div>
 
 ---
+layout: image-right
+image: ./aashutosh.jpg
+---
+Aashutosh Pudasaini
+
+- In love with computers since the 8th grade
+- Software Engineer at Leapfrog Technology - writing go on AWS for a british neobank
+- distributed systems nerd ( future goal )
+- football
+- philosophy
+- open source
+
+---
 # Day 1
 src: days/day1.md
 ---
