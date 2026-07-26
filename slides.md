@@ -1,6 +1,6 @@
 ---
 # try also 'default' to start simple
-theme: default
+theme: apple-basic
 # random image from a curated Unsplash collection by Anthony
 # like them? see https://unsplash.com/collections/94734566/slidev
 # some information about your slides (markdown enabled)
@@ -21,12 +21,37 @@ comark: true
 duration: 60min
 ---
 
-# Software Engineering at Scale
-Aashutosh P
+We are starting in 5 mins
+```js {monaco-run}
+let totalSeconds = 5 * 60; 
+const timer = setInterval(() => {
+  console.clear();
+  const minutes = Math.floor(totalSeconds / 60);
+  const seconds = totalSeconds % 60;
 
-<!--
-The last comment block of each slide will be treated as slide notes. It will be visible and editable in Presenter Mode along with the slide. [Read more in the docs](https://sli.dev/guide/syntax.html#notes)
--->
+  const formattedSeconds = seconds < 10 ? '0' + seconds : seconds;
+  console.log(`Starting in: ${minutes}:${formattedSeconds}`);
+
+  if (totalSeconds <= 0) {
+    clearInterval(timer);
+    console.log("Time's up!");
+  } else {
+    totalSeconds--;
+  }
+}, 1000);
+
+```
+
+---
+layout: intro
+---
+## Software Engineering at Scale.
+
+<div class="absolute bottom-10">
+    <span class="font-500">
+        aashutosh p
+    </span>
+</div>
 
 ---
 # Day 1
