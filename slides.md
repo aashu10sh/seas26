@@ -55,7 +55,7 @@ layout: intro
 
 ---
 layout: image-right
-image: ./aashutosh.jpg
+image: https://github.com/aashu10sh/seas26/blob/main/aashutosh.jpg?raw=true
 ---
 Aashutosh Pudasaini
 
