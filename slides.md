@@ -70,3 +70,8 @@ Aashutosh Pudasaini
 # Day 1
 src: days/day1.md
 ---
+
+---
+# Day 2
+src: days/day2.md
+---
