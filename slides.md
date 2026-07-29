@@ -75,3 +75,8 @@ src: days/day1.md
 # Day 2
 src: days/day2.md
 ---
+
+---
+# Day 3
+src: days/day3.md
+---
